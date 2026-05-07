@@ -1,0 +1,15 @@
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Fallout', 'Sci-Fi', 2024, 8.4);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Stranger Things', 'Sci-Fi/Horror', 2016, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('The Bear', 'Drama/Comedy', 2022, 8.6);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('One Piece', 'Adventure', 2023, 8.4);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Wednesday', 'Fantasy/Mystery', 2022, 8.1);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Squid Game', 'Thriller', 2021, 8.0);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('House of the Dragon', 'Fantasy', 2022, 8.4);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('The Last of Us', 'Drama/Post-Apocalyptic', 2023, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Succession', 'Drama', 2018, 8.9);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('The Boys', 'Action/Sci-Fi', 2019, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Shogun', 'Drama/History', 2024, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('The Crown', 'History/Drama', 2016, 8.6);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Black Mirror', 'Sci-Fi/Anthology', 2011, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Severance', 'Sci-Fi/Thriller', 2022, 8.7);
+INSERT INTO tv_shows (title, genre, release_year, rating) VALUES ('Ted Lasso', 'Comedy/Sport', 2020, 8.8);

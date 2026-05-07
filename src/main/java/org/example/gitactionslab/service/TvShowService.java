@@ -1,4 +1,7 @@
 package org.example.gitactionslab.service;
 
-public class Service {
+import org.springframework.stereotype.Service;
+
+@Service
+public class TvShowService {
 }
