@@ -25,8 +25,8 @@ class TvShowServiceTest {
     @Test
     void getAllTvShows_returnsAllShows() {
         List<TvShow> shows = List.of(
-                new TvShow("One Piece", "Adventure", 2023, 8.4),
-                new TvShow("House of the Dragon", "Fantasy", 2022, 8.4)
+                new TvShow(1L,"One Piece", "Adventure", 2023, 8.4),
+                new TvShow(2L,"House of the Dragon", "Fantasy", 2022, 8.4)
         );
         when(tvShowRepository.findAll()).thenReturn(shows);
 

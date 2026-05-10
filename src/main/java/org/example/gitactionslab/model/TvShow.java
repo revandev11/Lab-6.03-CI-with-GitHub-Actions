@@ -1,18 +1,23 @@
 package org.example.gitactionslab.model;
 
-import jakarta.persistence.Entity;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Entity
+@Table(name = "tv_shows")
 public class TvShow {
-private String title;
+ @Id
+ @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String title;
 private String genre;
-private int relase_year;
+    @Column(name = "release_year")
+    private int releaseYear;
 private double rating;
 
 

@@ -37,8 +37,8 @@ class TvShowControllerTest {
     @Test
     void getAll_returnsOkWithShows() throws Exception {
         when(tvShowService.getAllShows()).thenReturn(List.of(
-                new TvShow("Shogun", "Drama/History", 2024, 8.7),
-                new TvShow("Ted Lasso", "Comedy/Sport", 2020, 8.8)
+                new TvShow(1L,"Shogun", "Drama/History", 2024, 8.7),
+                new TvShow(2L,"Ted Lasso", "Comedy/Sport", 2020, 8.8)
         ));
 
         mockMvc.perform(get("/tvshows"))
