@@ -33,8 +33,8 @@ class TvShowServiceTest {
         List<TvShow> result = tvShowService.getAllShows();
 
         assertEquals(2, result.size());
-        assertEquals("Breaking Bad", result.get(0).getTitle());
-        assertEquals("The Office", result.get(1).getTitle());
+        assertEquals("One Piece", result.get(0).getTitle());
+        assertEquals("House of the Dragon", result.get(1).getTitle());
     }
 
     @Test
